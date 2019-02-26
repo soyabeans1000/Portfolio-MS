@@ -29,6 +29,12 @@ p {
     width: 100%;
   }
 
+  .longer_screen{
+    min-height: 80vh;
+  }
+
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -43,6 +49,7 @@ p {
   #index-banner .section {
     top: 0;
   }
+
 }
 
 .icon-block {
