@@ -25,18 +25,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-
-
-
   .parallax-container .section {
     width: 100%;
   }
-
-  .longer_screen{
-    min-height: 80vh;
-  }
-
-
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -52,7 +43,6 @@ p {
   #index-banner .section {
     top: 0;
   }
-
 }
 
 .icon-block {
@@ -71,12 +61,6 @@ footer.page-footer {
 {
   height:250px;
   width:250px;
-}
-
-.portfolio_container
-{
-    width:400px;
-    height:200px;
 }
 
 .responsive_image
