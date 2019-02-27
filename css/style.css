@@ -46,11 +46,12 @@ p {
   }
 
   .profile_pic
-{
- 
-  clear:left;
-  
+{ 
+  clear:left; 
 }
+
+} 
+/* end Media Query */
 
 .icon-block {
   padding: 0 15px;
