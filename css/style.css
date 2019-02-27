@@ -30,10 +30,6 @@ p {
   }
 
 
-  .container{
-    min_height:80vh;
-  }
-
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -48,6 +44,12 @@ p {
   #index-banner .section {
     top: 0;
   }
+
+  .profile_pic
+{
+ 
+  clear:left;
+  
 }
 
 .icon-block {
@@ -81,4 +83,8 @@ footer.page-footer {
   width:250px;
   float:left;
   padding:10px;
+}
+
+.bigger_container{
+  min_height:85vh;
 }
