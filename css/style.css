@@ -70,6 +70,12 @@ footer.page-footer {
   width:250px;
 }
 
+.portfolio_container
+{
+    width:400px;
+    height:200px;
+}
+
 .responsive_image
 {
   width: 100%;
