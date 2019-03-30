@@ -45,11 +45,6 @@ p {
     top: 0;
   }
 
-  .profile_pic
-{ 
-  clear:left; 
-}
-
 } 
 /* end Media Query */
 
@@ -64,11 +59,19 @@ footer.page-footer {
   margin: 0;
 }
 
-
-.cup_container
+.profile_pic
 {
+  height:250px;
+  width:250px;
+  float:left;
+  padding:10px;
+}
+
+.cup
+{
+  margin-top:100px;
   height:50%;
-  width:50%;
+  width:auto;
 }
 
 .responsive_image
@@ -78,14 +81,11 @@ footer.page-footer {
 
 }
 
-.profile_pic
-{
-  height:250px;
-  width:250px;
-  float:left;
-  padding:10px;
+.content{
+  min-height:42vh;
 }
 
-.bigger_container{
-  min-height:85vh;
+.bigger_container
+{
+  min-height:86vh;
 }
